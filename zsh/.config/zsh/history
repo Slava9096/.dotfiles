@@ -1,0 +1,137 @@
+exit
+exit
+exit
+exit
+nvim .dotfiles/install.sh
+exit
+ls -al
+rm .bash*
+ls -al
+rm yay
+rm -rf yay
+ls -al
+yay
+sudo pacman -Syu
+source .config/zsh/.zshrc
+source .config/zsh/.zshrc
+eixt
+exit
+sudo pacman -Rs zsh-syntax-higlighting
+sudo pacman -Rs  	zsh-syntax-highlighting
+sudo pacman -Rs zsh-syntax-highlighting
+yay -Rs zsh-syntax-highlighting
+sudo pacman -S  	zsh-syntax-highlighting
+exit
+exit
+cd .dotfiles
+nvim install.sh
+nvim install.sh
+nvim install.sh
+yay -S nerd-fonts-noto-sans-regular-complete
+nvim .
+tmux
+cd .dotfiles
+nvim install.sh
+sudo pacman -S tmux
+tmux
+cd 
+tmux
+nvim .dotfiles/install.sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+tmux
+rm -rm .tmux
+rm -rf .tmux
+nvim .dotfiles/install.sh
+nvim .dotfiles/install.sh
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+tmux
+tmux
+tmux
+exit
+sudo pacman -S bc
+nvim .config/tmux/tmux.conf
+exit
+cd .config/tmux
+ls
+cd plugins
+ls
+rm tmux tokyo-night-tmux
+rm -rf tmux tokyo-night-tmux
+exit
+\:q\
+exit
+sudo pacman -S ttf-jetbrains-mono-nerd
+exit
+exit
+tmux
+exit
+yay -Rs nerd-fonts-noto-sans-regular-complete
+exit
+exit
+tmux
+exit
+cd .local/share
+ls
+cd fo
+cd fonts
+ls
+rm ./*
+ls
+exit
+\:q
+nvim
+exit
+tmux
+exit
+exit
+tmux
+tmux
+ls -al
+rm .bash*
+ls -al
+tmux
+tmux
+tmux
+exit
+ssdaf
+lskdjdfl;asfjas
+nvim
+exit
+exit
+exit
+exit
+sudo pacman -S ttf-dejavu-nerd
+nvim .
+tmux
+exit
+cat .config/nvim/init.lua
+exit
+exit
+flatpak install discord telegram-desktop
+flatpak install discord telegram
+sudo pacman -S obsidian
+nvim /etc/pacman.conf
+sudo nvim /etc/pacman.conf
+sudo pacman -S steam
+sudo pacman -Syu
+sudo pacman -S steam
+sudo pacman -S dotnet-sdk dotnet-runtime nodejs npm
+sudo pacman -S tlp tlpui
+yay -S tlp tlpui
+exit
+sudo nvim /etc/mkinitcpio.conf
+sudo mkinitcpio
+sudo mkinitcpio -P
+exit
+yay -S protonup-qt
+curl -LO https://github.com/kevinlekiller/reshade-steam-proton/raw/main/reshade-linux.sh
+chmod u+x reshade-linux.sh
+exit
+ssh-keygen -t ed25519 -C "slava.kruglov.2003.2003@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+copy
+sudo pacman -S xclip
+cat ~/.ssh/id_ed25519.pub | copy
+nvim .dotfiles/install.sh
+exit
