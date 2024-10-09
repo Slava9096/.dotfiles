@@ -27,11 +27,14 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+alias open="xdg-open"
 
 bindkey "^[[3~" delete-char
 
 #Exports
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+[ -f "/home/slava9096/.ghcup/env" ] && . "/home/slava9096/.ghcup/env" # ghcup-env
+export PATH=$PATH:~/.spoof-dpi/bin
 
 eval "$(starship init zsh)"
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

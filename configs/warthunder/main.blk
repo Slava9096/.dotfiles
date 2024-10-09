@@ -6,8 +6,43 @@ controls{
   }
 
   hotkeys{
+    ID_AAM{}
+    ID_AGM{}
+    ID_AGM_LOCK{
+      keyboardKey:i=16
+    }
+
+    ID_BAY_DOOR{
+      keyboardKey:i=48
+    }
+
+    ID_BOMBS{}
+    ID_CAMERA_DEFAULT{}
+    ID_CAMERA_GUNNER{}
+    ID_CAMERA_VIRTUAL_FPS{
+      keyboardKey:i=42
+      keyboardKey:i=59
+    }
+
+    ID_CHUTE{
+      keyboardKey:i=64
+    }
+
     ID_CONTINUE{
       keyboardKey:i=57
+    }
+
+    ID_DESIGNATE_TARGET{
+      mouseButton:i=3
+    }
+
+    ID_EXIT_SHOOTING_CYCLE_MODE{}
+    ID_FIRE_ADDITIONAL_GUNS{
+      mouseButton:i=0
+    }
+
+    ID_FIRE_CANNONS{
+      mouseButton:i=0
     }
 
     ID_FIRE_GM_SECONDARY_GUN{
@@ -18,20 +53,76 @@ controls{
       keyboardKey:i=19
     }
 
+    ID_FIRE_MGUNS{
+      mouseButton:i=0
+    }
+
+    ID_FLAPS{}
+    ID_FLAPS_DOWN{
+      keyboardKey:i=33
+    }
+
+    ID_FLAPS_UP{
+      keyboardKey:i=34
+    }
+
+    ID_FLARES{
+      mouseButton:i=4
+    }
+
     ID_FLIGHTMENU{
       keyboardKey:i=1
+    }
+
+    ID_GEAR{
+      keyboardKey:i=63
+    }
+
+    ID_GUIDED_BOMBS{}
+    ID_GUIDED_BOMBS_LOCK{
+      keyboardKey:i=16
+    }
+
+    ID_LOCK_TARGET{
+      keyboardKey:i=45
+    }
+
+    ID_LOCK_TARGETING{
+      keyboardKey:i=199
+    }
+
+    ID_LOCK_TARGETING_AT_POINT{
+      mouseButton:i=2
     }
 
     ID_RANGEFINDER{
       mouseButton:i=4
     }
 
+    ID_RESIZE_SECONDARY_WEAPON_SERIES{}
+    ID_ROCKETS{}
     ID_SCREENSHOT{
       keyboardKey:i=42
       keyboardKey:i=183
     }
 
+    ID_SENSOR_ACM_SWITCH{
+      keyboardKey:i=4
+    }
+
+    ID_SENSOR_MODE_SWITCH{
+      keyboardKey:i=3
+    }
+
+    ID_SENSOR_TARGET_LOCK{
+      mouseButton:i=1
+    }
+
     ID_SENSOR_TARGET_LOCK_TANK{
+      keyboardKey:i=207
+    }
+
+    ID_SENSOR_TARGET_SWITCH{
       keyboardKey:i=207
     }
 
@@ -39,11 +130,103 @@ controls{
       keyboardKey:i=210
     }
 
+    ID_SWEEP_MODE{
+      keyboardKey:i=42
+      keyboardKey:i=41
+    }
+
+    ID_SWITCH_REGISTERED_BOMB_TARGETING_POINT{
+      keyboardKey:i=27
+    }
+
+    ID_SWITCH_SHOOTING_CYCLE_PRIMARY{}
+    ID_SWITCH_SHOOTING_CYCLE_SECONDARY{
+      keyboardKey:i=2
+    }
+
     ID_TANK_NIGHT_VISION{
       mouseButton:i=1
     }
 
     ID_TARGETING_HOLD_GM{}
+    ID_TARGET_CAMERA{}
+    ID_UNLOCK_TARGETING_AT_POINT{
+      keyboardKey:i=62
+    }
+
+    ID_VOICE_MESSAGE_1{
+      keyboardKey:i=79
+    }
+
+    ID_VOICE_MESSAGE_1{
+      keyboardKey:i=2
+    }
+
+    ID_VOICE_MESSAGE_2{
+      keyboardKey:i=80
+    }
+
+    ID_VOICE_MESSAGE_2{
+      keyboardKey:i=3
+    }
+
+    ID_WEAPON_LOCK{
+      keyboardKey:i=18
+    }
+
+    ailerons_rangeMax{
+      keyboardKey:i=32
+    }
+
+    ailerons_rangeMin{
+      keyboardKey:i=30
+    }
+
+    elevator_rangeMax{
+      keyboardKey:i=31
+    }
+
+    elevator_rangeMin{
+      keyboardKey:i=17
+    }
+
+    rudder_rangeMax{}
+    rudder_rangeMin{}
+    sensor_cue_z_rangeMax{
+      keyboardKey:i=56
+      keyboardKey:i=31
+    }
+
+    sensor_cue_z_rangeMin{
+      keyboardKey:i=56
+      keyboardKey:i=17
+    }
+
+    sweep_rangeMax{
+      keyboardKey:i=42
+      keyboardKey:i=43
+    }
+
+    sweep_rangeMin{
+      keyboardKey:i=42
+      keyboardKey:i=8
+    }
+
+    weapon_aim_heading_rangeMax{
+      keyboardKey:i=205
+    }
+
+    weapon_aim_heading_rangeMin{
+      keyboardKey:i=203
+    }
+
+    weapon_aim_pitch_rangeMax{
+      keyboardKey:i=200
+    }
+
+    weapon_aim_pitch_rangeMin{
+      keyboardKey:i=208
+    }
   }
 
   axes{
@@ -53,6 +236,20 @@ controls{
 
     gm_zoom{
       mouseAxisId:i=-1
+    }
+
+    sweep{
+      relative:b=yes
+    }
+
+    weapon_aim_heading{
+      innerDeadzone:r=0
+      kMul:r=0.3
+    }
+
+    weapon_aim_pitch{
+      innerDeadzone:r=0
+      kMul:r=0.3
     }
   }
 
@@ -129,7 +326,7 @@ settings{
   aimAccelerationDelayWalker:r=0.5
   aimAccelerationDelayShip:r=0.5
   aimAccelerationDelaySubmarine:r=0.5
-  mouseZMultAir:r=0.5
+  mouseZMultAir:r=0.39
   mouseZMultHelicopter:r=0.5
   mouseZMultTank:r=0.5
   mouseZMultShip:r=0.5
