@@ -21,6 +21,7 @@ _comp_option+=(globdotd)
 #Aliases
 alias copy='xclip -selection clipboard'
 alias xampp='sudo sh -c "/opt/lampp/manager-linux-x64.run &"'
+alias laptopServer='ssh slava9096@192.168.0.12 -p 34200'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -38,3 +39,4 @@ export PATH=$PATH:~/.spoof-dpi/bin
 
 eval "$(starship init zsh)"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
