@@ -34,8 +34,11 @@ bindkey "^[[3~" delete-char
 
 #Exports
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
-[ -f "/home/slava9096/.ghcup/env" ] && . "/home/slava9096/.ghcup/env" # ghcup-env
 export PATH=$PATH:~/.spoof-dpi/bin
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export EDITOR=nvim
+export VISUAL=nvim
+export SYSTEMD_EDITOR=nvim
 
 eval "$(starship init zsh)"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
