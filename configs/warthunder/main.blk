@@ -121,6 +121,7 @@ controls{
       keyboardKey:i=26
     }
 
+    ID_LOCK_TARGET{}
     ID_LOCK_TARGET{
       keyboardKey:i=45
     }
@@ -135,6 +136,10 @@ controls{
     }
 
     ID_OPEN_VISUAL_WEAPON_SELECTOR{}
+    ID_PLANE_NIGHT_VISION{
+      keyboardKey:i=9
+    }
+
     ID_RANGEFINDER{
       mouseButton:i=4
     }
@@ -151,16 +156,24 @@ controls{
       keyboardKey:i=183
     }
 
+    ID_SELECT_GM_GUN_PRIMARY{
+      keyboardKey:i=45
+    }
+
+    ID_SELECT_GM_GUN_RESET{
+      keyboardKey:i=53
+    }
+
     ID_SENSOR_ACM_SWITCH{
       keyboardKey:i=4
     }
 
-    ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=3
+    ID_SENSOR_DIRECTION_AXES_RESET{
+      mouseButton:i=2
     }
 
-    ID_SENSOR_STABILIZATION_SWITCH{
-      mouseButton:i=2
+    ID_SENSOR_MODE_SWITCH{
+      keyboardKey:i=3
     }
 
     ID_SENSOR_TARGET_LOCK{
@@ -173,6 +186,15 @@ controls{
 
     ID_SENSOR_TARGET_SWITCH{
       keyboardKey:i=207
+    }
+
+    ID_SENSOR_TARGET_SWITCH_TANK{
+      keyboardKey:i=20
+      keyboardKey:i=56
+    }
+
+    ID_SENSOR_TARGET_SWITCH_TANK{
+      keyboardKey:i=199
     }
 
     ID_SENSOR_TYPE_SWITCH_TANK{
@@ -298,6 +320,18 @@ controls{
       keyboardKey:i=31
     }
 
+    head_pos_x{}
+    head_pos_x_rangeMax{}
+    head_pos_x_rangeMin{}
+    head_pos_x_rangeSet{}
+    head_pos_y{}
+    head_pos_y_rangeMax{}
+    head_pos_y_rangeMin{}
+    head_pos_y_rangeSet{}
+    head_pos_z{}
+    head_pos_z_rangeMax{}
+    head_pos_z_rangeMin{}
+    head_pos_z_rangeSet{}
     sensor_cue_z_rangeMax{
       keyboardKey:i=56
       keyboardKey:i=31
@@ -438,6 +472,16 @@ controls{
       buttonsCount:i=6
       axesCount:i=3
     }
+
+    joystick{
+      connected:b=yes
+      devId:t="10E4:0ED6"
+      axesOffset:i=3
+      name:t="opentrack headpose"
+      buttonsOffset:i=6
+      buttonsCount:i=1
+      axesCount:i=6
+    }
   }
 }
 
@@ -459,21 +503,21 @@ settings{
   atgmAimZoomSensHelicopter:r=1
   mouseSmooth:b=no
   mouseJoystickDeadZone:r=0.02
-  helicopterMouseJoystickDeadZone:r=0.1
+  helicopterMouseJoystickDeadZone:r=0.018
   mouseJoystickScreenSize:r=0.6
   helicopterMouseJoystickScreenSize:r=0.6
   mouseJoystickScreenPlace:r=0
   helicopterMouseJoystickScreenPlace:r=0
   mouseJoystickSensitivity:r=0.5
-  helicopterMouseJoystickSensitivity:r=2
+  helicopterMouseJoystickSensitivity:r=0.5
   mouseAileronAileronFactor:r=1
   helicopterMouseAileronAileronFactor:r=1
   mouseAileronRudderFactor:r=0
-  helicopterMouseAileronRudderFactor:r=0.5
+  helicopterMouseAileronRudderFactor:r=0.2
   mouseJoystickSquare:b=yes
   helicopterMouseJoystickSquare:b=no
   mouseJoyMode:i=1
-  helicopterMouseJoyMode:i=0
+  helicopterMouseJoyMode:i=1
   aimTimeNonlinearityAir:r=0
   aimTimeNonlinearityHelicopter:r=0
   aimTimeNonlinearityTank:r=0
@@ -488,7 +532,7 @@ settings{
   aimAccelerationDelaySubmarine:r=0.5
   mouseZMultAir:r=0.27
   mouseZMultHelicopter:r=0.5
-  mouseZMultTank:r=1
+  mouseZMultTank:r=0.29
   mouseZMultShip:r=0.35
   mouseZMultSubmarine:r=0.5
   gamepadMinVibration:r=0.05
