@@ -21,7 +21,6 @@ _comp_option+=(globdotd)
 #Aliases
 alias copy='xclip -selection clipboard'
 alias xampp='sudo sh -c "/opt/lampp/manager-linux-x64.run &"'
-alias laptopServer='ssh slava9096@192.168.0.12 -p 34200'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -34,7 +33,6 @@ bindkey "^[[3~" delete-char
 
 #Exports
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
-export PATH=$PATH:~/.spoof-dpi/bin
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export EDITOR=nvim
 export VISUAL=nvim
