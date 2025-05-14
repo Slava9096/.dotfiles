@@ -32,11 +32,17 @@ alias open="xdg-open"
 bindkey "^[[3~" delete-char
 
 #Exports
+export PATH=$PATH:~/.cargo/bin/
 export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export PATH=$PATH:/home/slava9096/.local/bin
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export EDITOR=nvim
 export VISUAL=nvim
 export SYSTEMD_EDITOR=nvim
+
+export GTK_THEME="Adwaita-dark"
+export QT_STYLE_OVERRIDE="Adwaita-Dark"
+export QT_QPA_PLATFORMTHEME="qt6ct"  # или "qt6ct"
 
 eval "$(starship init zsh)"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -7,13 +7,15 @@ stow git
 stow tmux
 stow zsh
 stow kitty
+stow waybar
+stow hypr
 
-#Stop kitty from stealing default file manager
-xdg-mime default org.gnome.Nautilus.desktop inode/directory
+#Stop kitty from stealing default file manager (no longer needed)
+#xdg-mime default org.gnome.Nautilus.desktop inode/directory
 
 # Zsh stuff
 curl -sS https://starship.rs/install.sh | sh
-sudo pacman -S zsh-syntax-highlighting
+sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions --needed
 chsh -s /bin/zsh
 
 #Tmux 

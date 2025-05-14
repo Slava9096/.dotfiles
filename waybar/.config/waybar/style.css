@@ -1,0 +1,92 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: JetBrains Mono;
+    font-size: 15px;
+    min-height: 0;
+}
+
+window {
+    color: rgba(217, 216, 216, 1);
+    background: rgba(1, 1, 1, 0.00);
+}
+
+window#waybar.solo {
+    background: rgba(1, 1, 1, 0.00);
+}
+
+#workspaces {
+    background: rgba(10, 10, 10, 0.85);
+    border-bottom-right-radius: 10px;
+    transition: none;
+    border-right: 2px solid #20ed24;
+    border-bottom: 2px solid #20ed24;
+}
+
+#workspaces button {
+    transition: none;
+    color: rgba(217, 216, 216, 0.4);
+    background: transparent;
+}
+
+#workspaces button.visible {
+    color: rgba(217, 216, 216, 1);
+}
+
+#workspaces button.active {
+    border-top: 3px solid #20ed24;
+    color: #20ed24;
+}
+
+#workspaces button:hover {
+    border-top: 3px solid #00ffff;
+    color: #00ffff;
+    transition: none;
+    box-shadow: inherit;
+    text-shadow: inherit;
+}
+
+#workspaces button.urgent {
+    color: rgba(238, 46, 36, 1);
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#pulseaudio,
+#tray,
+#idle_inhibitor,
+#power-profiles-daemon,
+#custom-power,
+#temperature,
+#backlight,
+#language,
+#custom-hdr-switch,
+#window {
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: none;
+    border: 1px solid #20ed24;
+    background: rgba(10, 10, 10, 0.85);
+    border-radius: 5px;
+    color: #20ed24;
+}
+
+#tray menu {
+    background-color: #000000;
+    color: #20ed24;
+}
+
+#tray menu menuitem:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#custom-hdr-switch {
+    font-size: 20;
+    padding-right: 14px;
+}
