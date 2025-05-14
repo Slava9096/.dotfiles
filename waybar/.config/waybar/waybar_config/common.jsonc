@@ -2,6 +2,12 @@
     "height": 30,
     "spacing": 4,
     // Modules configuration
+    "custom/player": {
+        "return-type": "json",
+        "exec": "~/.config/waybar/modules/mediaplayer.py",
+        "format": "{}",
+        "on-click": "playerctl play-pause"
+    },
     "hyprland/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,

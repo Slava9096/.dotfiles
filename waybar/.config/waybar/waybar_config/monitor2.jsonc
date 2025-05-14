@@ -2,6 +2,7 @@
     "output": "eDP-1",
     "modules-left": [
         "hyprland/workspaces",
+        "custom/player"
     ],
     "modules-center": [
         "clock",

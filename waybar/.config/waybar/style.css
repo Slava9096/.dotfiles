@@ -63,6 +63,7 @@ window#waybar.solo {
 #backlight,
 #language,
 #custom-hdr-switch,
+#custom-player,
 #window {
     margin-top: 4px;
     margin-left: 4px;
@@ -73,6 +74,8 @@ window#waybar.solo {
     border: 1px solid #20ed24;
     background: rgba(10, 10, 10, 0.85);
     border-radius: 5px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
     color: #20ed24;
 }
 
