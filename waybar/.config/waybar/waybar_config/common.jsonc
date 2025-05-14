@@ -6,7 +6,9 @@
         "return-type": "json",
         "exec": "~/.config/waybar/modules/mediaplayer.py",
         "format": "{}",
-        "on-click": "playerctl play-pause"
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl volume 0.05+",
+        "on-scroll-down": "playerctl volume 0.05-"
     },
     "hyprland/workspaces": {
         "disable-scroll": true,
