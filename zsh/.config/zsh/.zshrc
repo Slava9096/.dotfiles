@@ -39,6 +39,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export EDITOR=nvim
 export VISUAL=nvim
 export SYSTEMD_EDITOR=nvim
+export IDF_PATH=/home/slava9096/esp/v5.4.1/esp-idf
 
 export GTK_THEME="Adwaita-dark"
 export QT_STYLE_OVERRIDE="Adwaita-Dark"

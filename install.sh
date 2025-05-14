@@ -1,6 +1,6 @@
 #!/bin/bash
 #Install some packages if i forgot to install them
-sudo pacman -S stow zsh kitty tmux xclip --needed
+sudo pacman -S stow zsh kitty tmux xclip rofi --needed
 
 #Stowing stuff
 stow git
@@ -9,6 +9,7 @@ stow zsh
 stow kitty
 stow waybar
 stow hypr
+stow rofi
 
 #Stop kitty from stealing default file manager (no longer needed)
 #xdg-mime default org.gnome.Nautilus.desktop inode/directory
