@@ -45,6 +45,9 @@ export GTK_THEME="Adwaita-dark"
 export QT_STYLE_OVERRIDE="Adwaita-Dark"
 export QT_QPA_PLATFORMTHEME="qt6ct"  # или "qt6ct"
 
+export FZF_COMPLETION_TRIGGER='**'
+export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --info=inline"
+
 eval "$(starship init zsh)"
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
