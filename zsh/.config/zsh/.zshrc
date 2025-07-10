@@ -27,6 +27,10 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+alias gd="dit diff --output-indicator-new=' ' --output-indicator-old=' '"
+alias gl="git log --all --graph --pretty=\
+	format: '%C(magenta)%h %C(white) %an %ar%C(auto) %D%n%s%n'"
+
 alias open="xdg-open"
 
 bindkey "^[[3~" delete-char
