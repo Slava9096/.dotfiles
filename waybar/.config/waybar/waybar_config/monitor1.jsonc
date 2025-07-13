@@ -14,8 +14,6 @@
         "pulseaudio",
         "power-profiles-daemon",
         "custom/hdr-switch",
-        "temperature",
-        "battery",
     ],
     "custom/hdr-switch": {
         "exec": "~/.config/waybar/modules/hdr.sh",
